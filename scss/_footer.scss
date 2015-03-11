@@ -1,0 +1,29 @@
+
+.social {
+    float: right;
+    padding-right: 60px;
+   
+    a {
+        color:white;
+    }
+    
+}
+
+
+
+
+
+
+
+ 
+ 
+ .clearfix {
+    zoom:1;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}

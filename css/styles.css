@@ -1,3 +1,143 @@
+@import url("http://fonts.googleapis.com/css?family=PT+Serif:700");
+@import url("http://fonts.googleapis.com/css?family=Lora:400,700");
+header {
+  color: #fff; }
 
+body {
+  background-color: #828282; }
+
+.eventDate {
+  position: absolute;
+  top: 21px;
+  right: 10px;
+  font-size: 1em; }
+
+.body-background {
+  background-image: url("../images/downtown2_greenville.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(175, 175, 175, 0.6);
+  background-blend-mode: lighten; }
+
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block; }
+
+.grokDown {
+  text-align: center; }
+  .grokDown img {
+    display: inline;
+    vertical-align: middle; }
+
+#countdown {
+  display: inline-block;
+  vertical-align: middle; }
+
+.countdown-row {
+  display: block;
+  padding: 40px; }
+
+.countdown-section {
+  display: block;
+  color: blue; }
+  @media (min-width: 600px) {
+    .countdown-section {
+      color: red;
+      display: inline-block; } }
+
+.countdown-section > span {
+  display: block; }
+
+.countdown-section + .countdown-section {
+  margin-left: 40px; }
+
+.countdown-section .countdown-amount {
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 500;
+  margin-bottom: 24px; }
+
+.countdown-section .countdown-period {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 10px;
+  letter-spacing: 6px; }
+
+li {
+  display: inline-block; }
+
+.days {
+  font-size: 1em; }
+
+.hours {
+  font-size: 1em; }
+
+.minutes {
+  font-size: 1em; }
+
+.seconds {
+  font-size: 1em; }
+
+.buttonTicket {
+  background-color: rgba(175, 175, 175, 0.6);
+  color: white;
+  font-size: 1em;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  display: inline-block; }
+
+.now {
+  font-size: 1.5em; }
+
+.event {
+  font-size: 2.5em;
+  color: white; }
+
+.aboutGrok {
+  color: white; }
+
+.pastSpeaker {
+  color: white; }
+
+.speaker img {
+  border-radius: 50%;
+  width: 25%;
+  height: auto; }
+
+.calendar {
+  background-color: white;
+  height: 600px; }
+
+.date {
+  border-bottom: solid; }
+
+.eat {
+  border-bottom: solid;
+  border-top: solid; }
+
+.time2Eat {
+  font-size: 2.5em;
+  position: relative; }
+
+.social {
+  float: right;
+  padding-right: 60px; }
+  .social a {
+    color: white; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
 
 /*# sourceMappingURL=styles.css.map */

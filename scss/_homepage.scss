@@ -1,0 +1,141 @@
+.grokDown {
+	text-align: center;
+
+	img {
+		display: inline;
+		vertical-align: middle;
+	}
+
+}
+
+#countdown {
+	display: inline-block;
+	vertical-align: middle;
+
+}
+.countdown-row {
+  display:block;
+  padding:40px;
+}
+
+.countdown-section {
+  // float:left;
+  display: block;
+
+
+	color: blue;
+
+	@include breakpoint($medium) {
+		color:red;
+		display: inline-block;
+
+	}
+
+}
+
+
+.countdown-section>span {
+  display:block;
+}
+
+.countdown-section+.countdown-section {
+  margin-left:40px;
+}
+
+.countdown-section .countdown-amount {
+  font-size:60px;
+  line-height:80px;
+  font-weight:500;
+  margin-bottom:24px;
+}
+
+.countdown-section .countdown-period {
+  text-transform:uppercase;
+  font-weight:300;
+  font-size:15px;
+  line-height:10px;
+  letter-spacing:6px;
+
+
+}
+	li {
+		display:inline-block;
+	}
+
+
+.days {
+	font-size: 1em;
+}
+.hours {
+	font-size: 1em;
+
+}
+.minutes {
+	font-size: 1em;
+}
+.seconds {
+	font-size: 1em;
+}
+
+.buttonTicket {
+	// margin: -8px 0;
+    background-color: rgba(175, 175, 175, 0.6);
+    color: white;
+    font-size: 1em;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+    
+ }
+ .now {
+ 	font-size: 1.5em;
+ }
+ .video {
+
+ }
+
+ .event {
+ 	font-size: 2.5em;
+ 	color: white;
+ }
+ .aboutGrok {
+ 	color: white;
+ }
+ .pastSpeaker {
+ 	color:white;
+}
+
+ 
+ .speaker img {
+ 	border-radius: 50%;
+ 	width: 25%;
+ 	height: auto;
+
+ }
+ 
+
+ .calendar {
+ 	background-color: white;
+ 	height: 600px;
+
+
+ }
+ .date {
+ 	border-bottom: solid;
+ }
+ .eat {
+ 	border-bottom: solid;
+ 	border-top: solid;
+ }
+ .time2Eat {
+ 	font-size: 2.5em;
+ 	position: relative;
+ }
+
+ // }
+ // h1, h2 {
+ 	// color:#b3d4fc;
+ // }
+
